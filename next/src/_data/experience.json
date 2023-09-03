@@ -1,0 +1,42 @@
+[
+    {
+        "name": "PipeIQ",
+        "role": "SWE",
+        "date": "2023",
+        "description": "PipeIQ is a rapidly growing generative AI startup, pioneering the creation of autonomous AI agents that aim to revolutionize the marketing and sales industry.",
+        "link": "https://pipeiq.ai/",
+        "tools": ["AWS", "FastAPI", "Python", "PostgreSQL", "Docker"]
+    },
+    {
+        "name": "Hack at UCI",
+        "role": "SWE",
+        "date": "2022 - current",
+        "description": "Hack at UCI is a student-run organization established to provide students with a platform to learn, grow, and develop technology.",
+        "link": "https://hack.ics.uci.edu/",
+        "tools": ["FastAPI", "Python", "Nextjs", "React", "TypeScript", "MongoDB", "Docker"]
+    },
+    {
+        "name": "Shi Labs",
+        "role": "Researcher",
+        "date": "2023 - current",
+        "description": "Shi Labs combine biochemical, structural, and high throughput sequencing-based global analyses in research.",
+        "link": "https://faculty.sites.uci.edu/shi/",
+        "tools": ["Python", "Ctypes", "PyQt5", "Numpy"]
+    },
+    {
+        "name": "WordleBot",
+        "role": "",
+        "date": "2023",
+        "description": "A program designed to accurately guess the daily wordle based on positional frequency",
+        "link": "https://wordlebot.nhuey.com/",
+        "tools": ["Django", "Python", "Nextjs", "React", "TypeScript", "ChakraUI", "Docker"]
+    },
+    {
+        "name": "Shareloft",
+        "role": "Contributor",
+        "date": "2022",
+        "description": "A private community and platform for thousands of retail investors, hosted by Tesla analyst and YouTuber Rob Maurer",
+        "link": "https://shareloft.com/",
+        "tools": ["Django", "Python", "Nextjs", "React", "TypeScript", "PostgreSQL", "Docker"]
+    }
+]
