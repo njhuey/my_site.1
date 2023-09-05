@@ -56,7 +56,7 @@ function ProjectCard({
         <div className='w-1/3'>
           <div className='flex flex-row items-center'>
             <p className='mr-1 font-bold'>{name}</p>
-            <motion.div ref={scope}>
+            <motion.div ref={scope} transition={{ ease: 'linear' }}>
               <Image src={arrow} alt='arrow' width={20} height={20} />
             </motion.div>
           </div>
