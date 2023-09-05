@@ -34,9 +34,10 @@ export default function Navbar({ aboutRef, projectsRef }: NavbarProps) {
           </button>
         </Link>
       </div>
-      <div className='md:hidden'>
+      <div className='sm:hidden'>
         <Link href='/Nathan Huey Resume 2023.pdf' target='_blank'>
           <button className='btn btn-ghost m-1 text-lg font-medium normal-case'>
+            <p className='font-normal'>R&#233;sum&#233;</p>
             <Image src={downloadIcon} alt='Download' />
           </button>
         </Link>
