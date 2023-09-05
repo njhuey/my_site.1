@@ -16,10 +16,10 @@ export default function Landing() {
         height={300}
         className='mb-6 rounded-full'
       />
-      <p className='text-7xl font-bold text-neutral-focus'>
+      <p className='px-2 text-center text-5xl font-bold text-neutral-focus lg:text-7xl'>
         Hi! My name is Nathan Huey.
       </p>
-      <p className='text-xl text-neutral-focus'>
+      <p className='px-2 text-center text-xl text-neutral-focus'>
         I am an aspiring Software Engineer studying at the Univeristy of
         California, Irvine
       </p>
