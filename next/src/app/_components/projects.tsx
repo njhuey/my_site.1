@@ -55,7 +55,7 @@ function ProjectCard({
       <div className='flex w-full flex-row'>
         <div className='w-1/3'>
           <div className='flex flex-row items-center'>
-            <p className='ml-1 font-bold'>{name}</p>
+            <p className='mr-1 font-bold'>{name}</p>
             <motion.div ref={scope}>
               <Image src={arrow} alt='arrow' width={20} height={20} />
             </motion.div>
