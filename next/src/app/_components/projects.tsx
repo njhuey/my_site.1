@@ -48,23 +48,30 @@ function ProjectCard({
     <Link
       href={link}
       target='_blank'
-      className='m-6 flex h-72 w-112 flex-col justify-between rounded-3xl p-8 shadow-2xl'
+      className='m-6 flex h-96 w-80 flex-col justify-between rounded-3xl p-8 shadow-2xl sm:h-72 sm:w-112'
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className='flex w-full flex-row'>
-        <div className='w-1/3'>
-          <div className='flex flex-row items-center'>
+      <div className='flex w-full flex-col sm:flex-row'>
+        <div className='flex w-full flex-row justify-between sm:w-1/3 sm:flex-col sm:justify-start'>
+          <div className='mb-0 flex flex-row items-center'>
             <p className='mr-1 font-bold'>{name}</p>
             <motion.div ref={scope} transition={{ ease: 'linear' }}>
-              <Image src={arrow} alt='arrow' width={20} height={20} />
+              <Image
+                src={arrow}
+                alt='arrow'
+                width={20}
+                height={20}
+                className='hidden sm:block'
+              />
             </motion.div>
           </div>
           <p>{role}</p>
-          <p>{date}</p>
+          <p className='hidden sm:block'>{date}</p>
         </div>
-        <div className='w-2/3'>
-          <p>{description}</p>
+        <p className='mb-4 sm:hidden'>{date}</p>
+        <div className='w-full sm:w-2/3'>
+          <p className='text-center sm:text-left'>{description}</p>
         </div>
       </div>
       <div className='flex w-full flex-wrap justify-center'>{tool_tags}</div>
@@ -78,14 +85,12 @@ export default function Projects() {
   });
 
   return (
-    <div className='hidden sm:block'>
-      <div className='mt-32 flex flex-col items-center'>
-        <h1 className='text-5xl font-bold text-neutral-focus'>
-          Projects and Experience
-        </h1>
-        <div className='mt-10 flex flex-row flex-wrap justify-center'>
-          {experience}
-        </div>
+    <div className='mt-32 flex flex-col items-center'>
+      <h1 className='text-3xl font-bold text-neutral-focus md:text-5xl'>
+        Projects and Experience
+      </h1>
+      <div className='mt-4 flex flex-row flex-wrap justify-center'>
+        {experience}
       </div>
     </div>
   );
