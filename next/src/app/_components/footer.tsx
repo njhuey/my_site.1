@@ -9,7 +9,7 @@ export default function Footer() {
         <Image src={nextjs} alt='nextjs' width={150} height={100} />
         <Image src={tailwindcss} alt='tailwindcss' width={200} height={100} />
       </div>
-      <h1 className='text-xl mb-8'>Nathan Huey &#169; 2022-2022</h1>
+      <h1 className='mb-8 text-xl'>Nathan Huey &#169; 2022-2023</h1>
     </div>
   );
 }
