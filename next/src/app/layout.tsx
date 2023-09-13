@@ -1,6 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Inter, Source_Code_Pro } from 'next/font/google';
+import { Inter } from 'next/font/google';
 
 export const metadata: Metadata = {
   title: 'Nathan Huey',
@@ -8,8 +8,6 @@ export const metadata: Metadata = {
 };
 
 const inter = Inter({ subsets: ['latin'] });
-
-const source_code_pro = Source_Code_Pro({ subsets: ['latin'] });
 
 export default function RootLayout({
   children,
