@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Navbar from './_components/navbar';
 import Landing from './_components/landing';
 import About from './_components/about';
+import Projects from './_components/projects';
 import arrow from 'public/arrow.svg';
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         </div>
       </div>
       <About />
+      <Projects />
     </>
   );
 }
