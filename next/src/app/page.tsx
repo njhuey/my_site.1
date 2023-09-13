@@ -3,6 +3,7 @@ import Navbar from './_components/navbar';
 import Landing from './_components/landing';
 import About from './_components/about';
 import Projects from './_components/projects';
+import Footer from './_components/footer';
 import arrow from 'public/arrow.svg';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       </div>
       <About />
       <Projects />
+      <Footer />
     </>
   );
 }
