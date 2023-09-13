@@ -1,4 +1,8 @@
+'use client';
 import Link from 'next/link';
+import Image from 'next/image';
+import arrow from 'public/link_arrow.svg';
+import { motion, useAnimate } from 'framer-motion';
 import experience_data from '../../_data/experience.json';
 
 interface Experience_Interface {
@@ -26,6 +30,16 @@ function ProjectCard({
   link,
   tools,
 }: Experience_Interface) {
+  const [scope, animate] = useAnimate();
+
+  const handleMouseEnter = () => {
+    animate(scope.current, { x: 5, y: -5 });
+  };
+
+  const handleMouseLeave = () => {
+    animate(scope.current, { x: 0, y: 0 });
+  };
+
   const tool_tags: JSX.Element[] = tools.map((tool, index) => {
     return <Tool tool={tool} key={index.toString()} />;
   });
@@ -35,10 +49,17 @@ function ProjectCard({
       href={link}
       target='_blank'
       className='m-6 flex h-72 w-112 flex-col justify-between rounded-3xl p-8 shadow-2xl'
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
       <div className='flex w-full flex-row'>
         <div className='w-1/3'>
-          <p className='font-bold'>{name}</p>
+          <div className='flex flex-row items-center'>
+            <p className='ml-1 font-bold'>{name}</p>
+            <motion.div ref={scope}>
+              <Image src={arrow} alt='arrow' width={20} height={20} />
+            </motion.div>
+          </div>
           <p>{role}</p>
           <p>{date}</p>
         </div>
