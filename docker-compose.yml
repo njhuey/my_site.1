@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  # React
+  react:
+    build:
+      context: ./next
+      dockerfile: Dockerfile
+    command: yarn run dev
+    # environment:
+    ports:
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - ./next:/next
+      - /next/node_modules
