@@ -27,7 +27,7 @@
         "name": "WordleBot",
         "role": "",
         "date": "2023",
-        "description": "A program designed to accurately guess the daily wordle based on positional frequency",
+        "description": "WordleBot is a program designed to accurately guess the daily wordle based on positional frequency.",
         "link": "https://wordlebot.nhuey.com/",
         "tools": ["Django", "Python", "Nextjs", "React", "TypeScript", "ChakraUI", "Docker"]
     },
@@ -35,7 +35,7 @@
         "name": "Shareloft",
         "role": "Contributor",
         "date": "2022",
-        "description": "A private community and platform for thousands of retail investors, hosted by Tesla analyst and YouTuber Rob Maurer",
+        "description": "Shareloft is a private community and platform for thousands of retail investors, hosted by Tesla analyst and YouTuber Rob Maurer.",
         "link": "https://shareloft.com/",
         "tools": ["Django", "Python", "Nextjs", "React", "TypeScript", "PostgreSQL", "Docker"]
     }
