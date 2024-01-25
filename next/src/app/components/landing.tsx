@@ -20,8 +20,8 @@ export default function Landing() {
         Hi! My name is Nathan Huey.
       </p>
       <p className='px-2 text-center text-xl text-neutral-focus'>
-        I am an aspiring Software Engineer studying at the Univeristy of
-        California, Irvine
+        I am a Software Engineer studying at the Univeristy of California,
+        Irvine
       </p>
       <div className='mt-2 flex flex-row'>
         <motion.div whileHover={{ scale: 1.2 }}>

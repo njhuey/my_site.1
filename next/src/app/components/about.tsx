@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Image from 'next/image';
 
 export default function About() {
@@ -10,27 +9,19 @@ export default function About() {
             A little more about me.
           </h1>
           <p className='py-2 sm:text-xl'>
-            I first became fascinated by programming when exposed to the{' '}
-            <Link
-              href='https://www.geeksforgeeks.org/the-knights-tour-problem/'
-              target='_blank'
-              className='font-bold text-secondary hover:text-secondary-focus'
-            >
-              Knight's Tour
-            </Link>{' '}
-            algorithm problem in high school. I'm interested in all things
-            programming and always looking to learn something new.
+            I am currently building efficient and reliable applications as a
+            back-end Software Engineer. I specialize in creating high-quality
+            software and I am always looking for a challenge.
           </p>
           <p className='py-2 sm:text-xl'>
-            Most recently, I've gotten the opportunity to work on multiple web
-            applications, both in industry and in university affiliated
-            organizations. I'm currently searching for roles where I can
-            strength my abilities as a software engineer and contribute to
-            something meaningful.
+            I've gotten the opportunity to work on multiple software projects,
+            both in industry and in university affiliated organizations. I'm
+            currently searching for roles where I can strength my abilities as a
+            software engineer and contribute to something meaningful.
           </p>
           <p className='py-2 sm:text-xl'>
             When I'm not coding, I enjoy skiing, rock climbing, and sometimes
-            golf. Additionally, I've been a snare drummer for 8 years, which
+            golf. Additionally, I've been a snare drummer for 9 years, which
             landed me the opportunity to be a part of the 49er drumline, Niner
             Noise.
           </p>
