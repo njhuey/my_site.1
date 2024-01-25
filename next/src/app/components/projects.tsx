@@ -48,7 +48,7 @@ function ProjectCard({
     <Link
       href={link}
       target='_blank'
-      className='m-6 flex h-96 w-80 flex-col justify-between rounded-3xl p-8 shadow-2xl sm:h-72 sm:w-112'
+      className='m-6 flex h-96 w-80 flex-col justify-between rounded-3xl p-8 shadow-2xl sm:h-72 sm:w-128'
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >

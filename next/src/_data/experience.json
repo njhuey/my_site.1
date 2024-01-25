@@ -1,11 +1,11 @@
 [
     {
-        "name": "PipeIQ",
+        "name": "Digital Biology",
         "role": "SWE",
-        "date": "2023",
-        "description": "PipeIQ is a rapidly growing generative AI startup, pioneering the creation of autonomous AI agents that aim to revolutionize the marketing and sales industry.",
-        "link": "https://pipeiq.ai/",
-        "tools": ["AWS", "FastAPI", "Python", "PostgreSQL", "Docker"]
+        "date": "2023 - current",
+        "description": "Digital Biology is a Biotechnology Research company dedicated to advancing vaccine and drug development in an effort to benefit those at risk for respiratory infectious diseases.",
+        "link": "https://www.linkedin.com/company/digital-biology-inc/",
+        "tools": ["Python", "Bazel", "Unix", "SQL", "DuckDB"]
     },
     {
         "name": "Hack at UCI",
@@ -16,9 +16,17 @@
         "tools": ["FastAPI", "Python", "Nextjs", "React", "TypeScript", "MongoDB", "Docker"]
     },
     {
+        "name": "PipeIQ",
+        "role": "SWE",
+        "date": "2023",
+        "description": "PipeIQ is a rapidly growing generative AI startup, pioneering the creation of autonomous AI agents that aim to revolutionize the marketing and sales industry.",
+        "link": "https://pipeiq.ai/",
+        "tools": ["AWS", "FastAPI", "Python", "PostgreSQL", "Docker"]
+    },
+    {
         "name": "Shi Labs",
         "role": "Researcher",
-        "date": "2023 - current",
+        "date": "2023",
         "description": "Shi Labs combine biochemical, structural, and high throughput sequencing-based global analyses in research.",
         "link": "https://faculty.sites.uci.edu/shi/",
         "tools": ["Python", "Ctypes", "PyQt5", "Numpy"]
