@@ -17,7 +17,7 @@ export default function Footer() {
           <Image src={tailwindcss} alt='tailwindcss' width={150} height={50} />
         </div>
       </div>
-      <h1 className='mb-8 sm:text-xl'>Nathan Huey &#169; 2022-2023</h1>
+      <h1 className='mb-8 sm:text-xl'>Nathan Huey &#931; 2022-2024</h1>
     </div>
   );
 }
