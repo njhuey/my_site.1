@@ -21,7 +21,7 @@ export default function Landing() {
       </p>
       <p className='px-2 text-center text-xl text-neutral-focus'>
         I am a Software Engineer studying at the Univeristy of California,
-        Irvine
+        Los Angeles.
       </p>
       <div className='mt-2 flex flex-row'>
         <motion.div whileHover={{ scale: 1.2 }}>

@@ -22,8 +22,8 @@ export default function About() {
           <p className='py-2 sm:text-xl'>
             When I'm not coding, I enjoy skiing, rock climbing, and sometimes
             golf. Additionally, I've been a snare drummer for 9 years, which
-            landed me the opportunity to be a part of the 49er drumline, Niner
-            Noise.
+            landed me the opportunity to be a part of the drumline that plays 
+            for the 49ers, Niner Noise.
           </p>
         </div>
       </div>

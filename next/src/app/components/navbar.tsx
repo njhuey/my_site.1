@@ -28,19 +28,6 @@ export default function Navbar({ aboutRef, projectsRef }: NavbarProps) {
         >
           Projects
         </button>
-        <Link href='/Nathan Huey Resume 2024.pdf' target='_blank'>
-          <button className='btn btn-secondary m-2 text-lg font-medium normal-case'>
-            R&#233;sum&#233;
-          </button>
-        </Link>
-      </div>
-      <div className='sm:hidden'>
-        <Link href='/Nathan Huey Resume 2024.pdf' target='_blank'>
-          <button className='btn btn-ghost m-1 text-lg font-medium normal-case'>
-            <p className='font-normal'>R&#233;sum&#233;</p>
-            <Image src={downloadIcon} alt='Download' />
-          </button>
-        </Link>
       </div>
     </div>
   );
