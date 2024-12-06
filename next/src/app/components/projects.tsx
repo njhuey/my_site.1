@@ -87,7 +87,7 @@ export default function Projects() {
   return (
     <div className='mt-32 flex flex-col items-center'>
       <h1 className='text-3xl font-bold text-neutral-focus md:text-5xl'>
-        Projects and Experience
+        Projects
       </h1>
       <div className='mt-4 flex flex-row flex-wrap justify-center'>
         {experience}

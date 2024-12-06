@@ -1,21 +1,5 @@
 [
     {
-        "name": "Digital Biology",
-        "role": "SWE Intern",
-        "date": "2023 - current",
-        "description": "Digital Biology is a Biotechnology Research company dedicated to advancing vaccine and drug development in an effort to benefit those at risk for respiratory infectious diseases.",
-        "link": "https://www.linkedin.com/company/digital-biology-inc/",
-        "tools": ["Python", "Bazel", "Dagster", "SQL", "Pandas", "DuckDB", "Unix"]
-    },
-    {
-        "name": "PipeIQ",
-        "role": "SWE Intern",
-        "date": "2023",
-        "description": "PipeIQ is a rapidly growing generative AI startup, pioneering the creation of autonomous AI agents that aim to revolutionize the marketing and sales industry.",
-        "link": "https://pipeiq.ai/",
-        "tools": ["Python", "PostgreSQL", "AWS", "FastAPI", "Docker"]
-    },
-    {
         "name": "Hack at UCI",
         "role": "Tech Organizer",
         "date": "2022 - 2024",
@@ -24,18 +8,10 @@
         "tools": ["Python", "FastAPI", "MongoDB", "TypeScript", "Nextjs", "Tailwind CSS"]
     },
     {
-        "name": "Shi Labs",
-        "role": "Researcher",
-        "date": "2023",
-        "description": "Shi Labs combine biochemical, structural, and high throughput sequencing-based global analyses in research.",
-        "link": "https://faculty.sites.uci.edu/shi/",
-        "tools": ["Python", "PyQt5", "Numpy"]
-    },
-    {
         "name": "WordleBot",
         "role": "",
         "date": "2023",
-        "description": "WordleBot is a program designed to accurately guess the daily wordle based on positional frequency.",
+        "description": "WordleBot is a program designed to accurately guess the daily wordle based on positional letter frequency.",
         "link": "https://wordlebot.nhuey.com/",
         "tools": ["Python", "Django", "TypeScript", "Nextjs", "React", "ChakraUI", "Axios", "Docker"]
     },
@@ -43,7 +19,7 @@
         "name": "Shareloft",
         "role": "Contributor",
         "date": "2022",
-        "description": "Shareloft is a private community and platform for thousands of retail investors, hosted by Tesla analyst and YouTuber Rob Maurer.",
+        "description": "Shareloft is a private community and platform for thousands of retail investors hosted by Tesla analyst and YouTuber Rob Maurer.",
         "link": "https://shareloft.com/",
         "tools": ["Python", "Django", "TypeScript", "Nextjs", "React", "PostgreSQL", "Docker"]
     }

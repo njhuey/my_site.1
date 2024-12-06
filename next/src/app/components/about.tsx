@@ -10,19 +10,19 @@ export default function About() {
           </h1>
           <p className='py-2 sm:text-xl'>
             I am currently building efficient and reliable applications as a
-            back-end Software Engineer. I specialize in creating high-quality
+            back-end software engineer. I specialize in creating high-quality
             software and I am always looking for a challenge.
           </p>
           <p className='py-2 sm:text-xl'>
             I've gotten the opportunity to work on multiple software projects,
             both in industry and in university affiliated organizations. I'm
-            currently searching for roles where I can strength my abilities as a
-            software engineer and contribute to something meaningful.
+            currently searching for roles where I can strengthen my abilities
+            as a software engineer and contribute to something meaningful.
           </p>
           <p className='py-2 sm:text-xl'>
             When I'm not coding, I enjoy skiing, rock climbing, and sometimes
             golf. Additionally, I've been a snare drummer for 9 years, which
-            landed me the opportunity to be a part of the drumline that plays 
+            landed me the opportunity to be a part of the drumline that plays
             for the 49ers, Niner Noise.
           </p>
         </div>
