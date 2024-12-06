@@ -8,10 +8,10 @@
         "tools": ["Python", "FastAPI", "MongoDB", "TypeScript", "Nextjs", "Tailwind CSS"]
     },
     {
-        "name": "WordleBot",
+        "name": "Wordle Guesser",
         "role": "",
         "date": "2023",
-        "description": "WordleBot is a program designed to accurately guess the daily wordle based on positional letter frequency.",
+        "description": "Wordle Guesser is a program designed to accurately guess the daily Wordle based on positional letter frequency.",
         "link": "https://wordlebot.nhuey.com/",
         "tools": ["Python", "Django", "TypeScript", "Nextjs", "React", "ChakraUI", "Axios", "Docker"]
     },
