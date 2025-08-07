@@ -4,14 +4,14 @@
         "role": "",
         "date": "2025",
         "description": "Chrysalis is a metamorphic testing framework in Python that verifies software robustness and reliability.",
-        "link": "",
+        "link": "https://github.com/Chrysalis-Test/Chrysalis",
         "tools": ["Python", "DuckDB", "SQLite3"]
     },
     {
         "name": "Hack at UCI",
         "role": "Tech Organizer",
         "date": "2022 - 2024",
-        "description": "Built backend infrastructure for hackathon platform serving 1000+ participants with scalable APIs and data workflows.",
+        "description": "Built backend infrastructure for hackathon platform serving 500+ participants with scalable APIs and data workflows.",
         "link": "https://hack.ics.uci.edu/",
         "tools": ["Python", "FastAPI", "MongoDB", "Docker"]
     },
@@ -27,7 +27,7 @@
         "name": "Shareloft",
         "role": "Contributor",
         "date": "2022",
-        "description": "Contributed to backend infrastructure for investment community platform serving thousands of users with database optimizations.",
+        "description": "Shareloft is a private community and platform for thousands of retail investors hosted by Tesla analyst and YouTuber Rob Maurer.",
         "link": "https://shareloft.com/",
         "tools": ["Python", "Django", "PostgreSQL", "Docker"]
     }

@@ -17,7 +17,7 @@ export default function About() {
             I have gained valuable hands-on experience through internships
             in software development. I have a true passion for designing 
             software systems and I am eager to apply my technical skills and 
-            fresh perspective to contribute to innovative projects in my next 
+            perspective to contribute to innovative projects in my next 
             role.
           </p>
           <p className='py-2 sm:text-xl'>
