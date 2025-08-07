@@ -13,7 +13,7 @@
         "date": "2022 - 2024",
         "description": "Hack at UCI is a student-run organization established to provide students with a platform to learn, grow, and develop technology.",
         "link": "https://hack.ics.uci.edu/",
-        "tools": ["Python", "FastAPI", "MongoDB", "TypeScript", "Nextjs", "Tailwind CSS"]
+        "tools": ["Python", "FastAPI", "MongoDB", "TypeScript", "Next.js", "Tailwind CSS"]
     },
     {
         "name": "Wordle Guesser",
@@ -21,7 +21,7 @@
         "date": "2023",
         "description": "Wordle Guesser is a program designed to accurately guess the daily Wordle based on positional letter frequency.",
         "link": "https://wordlebot.nhuey.com/",
-        "tools": ["Python", "Django", "TypeScript", "Nextjs", "React", "ChakraUI", "Axios", "Docker"]
+        "tools": ["Python", "Django", "TypeScript", "Next.js", "React", "ChakraUI", "Axios", "Docker"]
     },
     {
         "name": "Shareloft",
@@ -29,6 +29,6 @@
         "date": "2022",
         "description": "Shareloft is a private community and platform for thousands of retail investors hosted by Tesla analyst and YouTuber Rob Maurer.",
         "link": "https://shareloft.com/",
-        "tools": ["Python", "Django", "TypeScript", "Nextjs", "React", "PostgreSQL", "Docker"]
+        "tools": ["Python", "Django", "TypeScript", "Next.js", "React", "PostgreSQL", "Docker"]
     }
 ]

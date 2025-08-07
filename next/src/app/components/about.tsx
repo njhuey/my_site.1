@@ -9,21 +9,22 @@ export default function About() {
             A little more about me.
           </h1>
           <p className='py-2 sm:text-xl'>
-            I am currently building efficient and reliable applications as a
-            back-end software engineer. I specialize in creating high-quality
-            software and I am always looking for a challenge.
+            I am a software engineer with experience in data infrastructure,
+            focused on building scalable and efficient systems. My expertise
+            spans infrastructure, machine learning, and software architecture.
           </p>
           <p className='py-2 sm:text-xl'>
-            I've gotten the opportunity to work on multiple software projects,
-            both in industry and in university affiliated organizations. I'm
-            currently searching for roles where I can strengthen my abilities
-            as a software engineer and contribute to something meaningful.
+            I have gained valuable hands-on experience through internships
+            in software development. I have a true passion for designing 
+            software systems and I am eager to apply my technical skills and 
+            fresh perspective to contribute to innovative projects in my next 
+            role.
           </p>
           <p className='py-2 sm:text-xl'>
-            When I'm not coding, I enjoy skiing, rock climbing, and sometimes
-            golf. Additionally, I've been a snare drummer for 9 years, which
-            landed me the opportunity to be a part of the drumline that plays
-            for the 49ers, Niner Noise.
+            When I'm not coding, I enjoy skiing and sometimes golf.
+            Additionally, I've been a snare drummer for 9 years, which landed me
+            the opportunity to be a part of the drumline that plays for the
+            49ers, Niner Noise.
           </p>
         </div>
       </div>
