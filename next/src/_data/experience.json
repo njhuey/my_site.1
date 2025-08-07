@@ -1,5 +1,13 @@
 [
     {
+        "name": "Chrysalis",
+        "role": "",
+        "date": "2025",
+        "description": "Chrysalis is a metamorphic testing framework in Python that verifies software robustness and reliability.",
+        "link": "",
+        "tools": ["Python", "DuckDB", "SQLite3"]
+    },
+    {
         "name": "Hack at UCI",
         "role": "Tech Organizer",
         "date": "2022 - 2024",
