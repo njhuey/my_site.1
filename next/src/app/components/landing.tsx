@@ -16,7 +16,7 @@ export default function Landing() {
         height={300}
         className='mb-6 rounded-full'
       />
-      <p className='px-2 text-center text-5xl font-bold text-neutral-focus lg:text-7xl'>
+      <p className='mb-4 px-2 text-center text-5xl font-bold text-neutral-focus lg:text-7xl'>
         Hi! My name is Nathan Huey.
       </p>
       <p className='px-2 text-center text-xl text-neutral-focus'>
