@@ -1,34 +1,34 @@
 [
-    {
-        "name": "Chrysalis",
-        "role": "",
-        "date": "2025",
-        "description": "Chrysalis is a metamorphic testing framework in Python that verifies software robustness and reliability.",
-        "link": "https://github.com/Chrysalis-Test/Chrysalis",
-        "tools": ["Python", "DuckDB", "SQLite3"]
-    },
-    {
-        "name": "Hack at UCI",
-        "role": "Tech Organizer",
-        "date": "2022 - 2024",
-        "description": "Built backend infrastructure for hackathon platform serving 500+ participants with scalable APIs and data workflows.",
-        "link": "https://hack.ics.uci.edu/",
-        "tools": ["Python", "FastAPI", "MongoDB", "Docker"]
-    },
-    {
-        "name": "Wordle Guesser",
-        "role": "",
-        "date": "2023",
-        "description": "Developed algorithm analyzing letter frequency patterns and statistical data to optimize Wordle solutions with Django backend.",
-        "link": "https://wordlebot.nhuey.com/",
-        "tools": ["Python", "Django", "Go", "Docker", "PostgreSQL"]
-    },
-    {
-        "name": "Shareloft",
-        "role": "Contributor",
-        "date": "2022",
-        "description": "Shareloft is a private community and platform for thousands of retail investors hosted by Tesla analyst and YouTuber Rob Maurer.",
-        "link": "https://shareloft.com/",
-        "tools": ["Python", "Django", "PostgreSQL", "Docker"]
-    }
+  {
+    "name": "Chrysalis",
+    "role": "",
+    "date": "2025",
+    "description": "Chrysalis is a lightweight, extensible logging and replay-based metamorphic testing framework in Python.",
+    "link": "https://github.com/Chrysalis-Test/Chrysalis",
+    "tools": ["Python", "DuckDB", "SQLite3"]
+  },
+  {
+    "name": "Hack at UCI",
+    "role": "Tech Organizer",
+    "date": "2022 - 2024",
+    "description": "Built backend infrastructure for hackathon platform serving 500+ participants with scalable APIs and data workflows.",
+    "link": "https://hack.ics.uci.edu/",
+    "tools": ["Python", "FastAPI", "MongoDB", "Docker"]
+  },
+  {
+    "name": "Wordle Guesser",
+    "role": "",
+    "date": "2023",
+    "description": "Developed algorithm analyzing letter frequency patterns and statistical data to optimize Wordle solutions with Django backend.",
+    "link": "https://wordlebot.nhuey.com/",
+    "tools": ["Python", "Django", "Go", "Docker", "PostgreSQL"]
+  },
+  {
+    "name": "Shareloft",
+    "role": "Contributor",
+    "date": "2022",
+    "description": "Shareloft is a private community and platform for thousands of retail investors hosted by Tesla analyst and YouTuber Rob Maurer.",
+    "link": "https://shareloft.com/",
+    "tools": ["Python", "Django", "PostgreSQL", "Docker"]
+  }
 ]
