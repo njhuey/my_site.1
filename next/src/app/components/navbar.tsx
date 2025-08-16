@@ -1,7 +1,4 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import { RefObject } from 'react';
-import downloadIcon from 'public/download.svg';
 
 interface NavbarProps {
   aboutRef: RefObject<HTMLDivElement>;
@@ -17,6 +14,7 @@ export default function Navbar({ aboutRef, projectsRef }: NavbarProps) {
           onClick={() =>
             aboutRef.current?.scrollIntoView({ behavior: 'smooth' })
           }
+          aria-label="Navigate to About section"
         >
           About
         </button>
@@ -25,6 +23,7 @@ export default function Navbar({ aboutRef, projectsRef }: NavbarProps) {
           onClick={() =>
             projectsRef.current?.scrollIntoView({ behavior: 'smooth' })
           }
+          aria-label="Navigate to Projects section"
         >
           Projects
         </button>

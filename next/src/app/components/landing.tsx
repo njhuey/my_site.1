@@ -3,8 +3,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import linkedin from 'public/linkedin.svg';
-import github from 'public/github.svg';
 
 export default function Landing() {
   return (
@@ -25,9 +23,9 @@ export default function Landing() {
       </p>
       <div className='mt-2 flex flex-row'>
         <motion.div whileHover={{ scale: 1.2 }}>
-          <Link href='https://www.linkedin.com/in/nhuey' target='_blank'>
+          <Link href='https://www.linkedin.com/in/nhuey' target='_blank' rel='noopener noreferrer' aria-label="Nathan's LinkedIn profile">
             <Image
-              src={linkedin}
+              src='/linkedin.svg'
               alt='linkedin'
               width={40}
               height={40}
@@ -36,9 +34,9 @@ export default function Landing() {
           </Link>
         </motion.div>
         <motion.div whileHover={{ scale: 1.2 }}>
-          <Link href='https://github.com/njhuey' target='_blank'>
+          <Link href='https://github.com/njhuey' target='_blank' rel='noopener noreferrer' aria-label="Nathan's GitHub profile">
             <Image
-              src={github}
+              src='/github.svg'
               alt='github'
               width={30}
               height={30}

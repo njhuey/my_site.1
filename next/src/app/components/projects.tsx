@@ -1,18 +1,9 @@
 'use client';
 import Link from 'next/link';
 import Image from 'next/image';
-import arrow from 'public/link_arrow.svg';
 import { motion, useAnimate } from 'framer-motion';
 import experience_data from '../../_data/experience.json';
-
-interface Experience_Interface {
-  name: string;
-  role: string;
-  date: string;
-  description: string;
-  link: string;
-  tools: string[];
-}
+import { Experience } from '../../types/experience';
 
 function Tool({ tool }: { tool: string }) {
   return (
@@ -29,7 +20,7 @@ function ProjectCard({
   description,
   link,
   tools,
-}: Experience_Interface) {
+}: Experience) {
   const [scope, animate] = useAnimate();
 
   const handleMouseEnter = () => {
@@ -40,14 +31,15 @@ function ProjectCard({
     animate(scope.current, { x: 0, y: 0 });
   };
 
-  const tool_tags: JSX.Element[] = tools.map((tool, index) => {
-    return <Tool tool={tool} key={index.toString()} />;
+  const tool_tags: JSX.Element[] = tools.map((tool) => {
+    return <Tool tool={tool} key={tool} />;
   });
 
   return (
     <Link
       href={link}
       target='_blank'
+      rel='noopener noreferrer'
       className='m-6 flex h-96 w-80 flex-col justify-between rounded-3xl p-8 shadow-2xl sm:h-72 sm:w-128'
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
@@ -58,7 +50,7 @@ function ProjectCard({
             <p className='mr-1 font-bold'>{name}</p>
             <motion.div ref={scope} transition={{ ease: 'linear' }}>
               <Image
-                src={arrow}
+                src='/link_arrow.svg'
                 alt='arrow'
                 width={20}
                 height={20}

@@ -1,7 +1,6 @@
 'use client';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import arrow from 'public/arrow.svg';
 
 export default function Arrow() {
   return (
@@ -17,7 +16,7 @@ export default function Arrow() {
           repeat: Infinity,
         }}
       >
-        <Image src={arrow} alt='arrow' height={50} width={50} />
+        <Image src='/arrow.svg' alt='arrow' height={50} width={50} />
       </motion.div>
     </div>
   );

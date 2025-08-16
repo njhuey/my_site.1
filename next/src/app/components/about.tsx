@@ -21,8 +21,8 @@ export default function About() {
             role.
           </p>
           <p className='py-2 sm:text-xl'>
-            When I'm not coding, I enjoy skiing and sometimes golf.
-            Additionally, I've been a snare drummer for 9 years, which landed me
+            When I&apos;m not coding, I enjoy skiing and sometimes golf.
+            Additionally, I&apos;ve been a snare drummer for 9 years, which landed me
             the opportunity to be a part of the drumline that plays for the
             49ers, Niner Noise.
           </p>
@@ -34,7 +34,8 @@ export default function About() {
           alt='hackuci'
           width={800}
           height={600}
-          className='h-[100] w-[150] rounded-3xl shadow-2xl '
+          priority
+          className='h-[100] w-[150] rounded-3xl shadow-2xl'
         />
       </div>
     </div>
